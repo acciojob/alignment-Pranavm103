@@ -8,6 +8,91 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>HTML Assignment #3</h1>
+
+<table class="middle" id="table-1">
+    <tr>
+        <td id="t11">left</td>
+        <td id="t12" class="center">center</td>
+        <td id="t13" class="right">right</td>
+    </tr>
+    <tr>
+        <td>left</td>
+        <td class="center">center</td>
+        <td class="right">right</td>
+    </tr>
+    <tr>
+        <td>left</td>
+        <td class="center">center</td>
+        <td class="right">right</td>
+    </tr>
+</table>
+
+<!-- ✅ CORRECTED TABLE 2 (perfect matching screenshot) -->
+<table class="middle" id="table-2">
+    <!-- Row 1 -->
+    <tr>
+        <td id="t21" colspan="6"></td>
+    </tr>
+
+    <!-- Row 2 -->
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+
+    <!-- Row 3 -->
+    <tr>
+        <td rowspan="3"></td>       <!-- Left tall column -->
+        <td></td>
+        <td colspan="2"></td>       <!-- Middle merged cell -->
+        <td></td>
+        <td rowspan="3"></td>       <!-- Right tall column -->
+    </tr>
+
+    <!-- Row 4 -->
+    <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td></td>
+    </tr>
+
+    <!-- Row 5 -->
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <!-- Row 6 -->
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+</table>
+<!-- ✅ TABLE 3 -->
+<table class="middle" id="table-3">
+
+    <!-- Green Row -->
+    <tr class="green">
+        <td colspan="3"></td>
+    </tr>
+
+    <!-- Image Row -->
+    <tr>
+        <td></td>
+        <td id="t-image" class="center">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Jordan_by_Lipofsky_1987.jpg"
+                 width="350">
+        </td>
+        <td></td>
+    </tr>
+
+    <!-- Blue Row -->
+    <tr class="blue">
+        <td colspan="3"></td>
+    </tr>
+
+</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
